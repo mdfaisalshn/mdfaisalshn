@@ -3,10 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="input.css">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mohammed Faisal Shahna</title>
 </head>
-<body>
-    
+<body class="bg-[#0c0c0c] text-white" style="font-family: 'Rajdhani', sans-serif;">
+    <nav id="nav" class="flex justify-start items-center flex-col space-y-[15%] text-white bg-cover bg-blend-darken h-[80vh] sm:h-[100vh]" style="background-image: url('mypic.jpg');">
+        <ul class="flex justify-center items-center space-x-8 sm:space-x-16 lg:space-x-24 my-4">
+            <li class=" text-xs sm:text-base cursor-pointer hover:text-[#7fffd4]"><a href="">Home</a></li>
+            <li class=" text-xs sm:text-base cursor-pointer hover:text-[#7fffd4]"><a href="#proj-head">Projects</a></li>
+            <li class=" text-xs sm:text-base cursor-pointer hover:text-[#7fffd4]"><a href="#resume-head">Resume</a></li>
+            <li class=" text-xs sm:text-base cursor-pointer hover:text-[#7fffd4]"><a href="#blogs">Blogs</a></li>
+            <li class=" text-xs sm:text-base cursor-pointer hover:text-[#7fffd4]"><a href="#about">About</a></li>
+            <li class=" text-xs sm:text-base cursor-pointer hover:text-[#7fffd4]"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="flex justify-center items-center flex-col space-y-3">
+            <h6 class="text-xl sm:text-3xl lg:text-4xl font-light" id="hello">Hello, I am</h6>
+            <h3 class="text-2xl sm:text-4xl lg:text-5xl font-bold text-[#7fffd4]" id="myname">Mohammed Faisal Shahna</h3>
+            <p class="text-lg sm:text-2xl lg:text-3xl font-medium text-[#7fffd4]" id="mypost"></p>
+            <a href="Resume.pdf" download><button class="btn text-sm sm:text-lg  text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md" id="resume-btn">Resume</button></a>
+        </div>
+    </nav>
+
+
+    <div id="projects" class="sec-2 flex justify-center items-center flex-col space-y-20 mt-20 sm:h-[100vh]">
+        <h3 id="proj-head" class="text-[#7fffd4] font-bold text-3xl sm:text-5xl">My Projects</h3>
+        <div class="grid gap-4 grid-cols-1 grid-rows-6 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 w-[95%]">
+            <span id="card-1" class="flex justify-center items-center flex-col p-5 bg-[#464646] text-white space-y-1 rounded-md w-[100%] bg-cover bg-blend-darken"style="background-image: url('SUI\ LOGO.png');">
+                <h3 class="text-lg sm:text-4xl font-bold">Apna Quiz</h3>
+                <h5 class="text-xs sm:text-lg font-light">22-09-2023</h5>
+                <p class="text-sm sm:text-2xl font-medium text-center">Apna Quiz is was very much designed by me.</p>
+                <button class="btn text-base text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md">Visit Project</button>
+            </span>
+            <span id="card-2" class="flex justify-center items-center flex-col p-5 bg-[#464646] text-white space-y-1 rounded-md w-[100%] bg-cover bg-blend-darken"style="background-image: url('SUI\ LOGO.png');">
+                <h3 class="text-lg sm:text-4xl font-bold">Apna Quiz</h3>
+                <h5 class="text-xs sm:text-lg font-light">22-09-2023</h5>
+                <p class="text-sm sm:text-2xl font-medium text-center">Apna Quiz is was very much designed by me.</p>
+                <button class="btn text-base text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md">Visit Project</button>
+            </span>
+            <span id="card-3" class="flex justify-center items-center flex-col p-5 bg-[#464646] text-white space-y-1 rounded-md w-[100%] bg-cover bg-blend-darken"style="background-image: url('SUI\ LOGO.png');">
+                <h3 class="text-lg sm:text-4xl font-bold">Apna Quiz</h3>
+                <h5 class="text-xs sm:text-lg font-light">22-09-2023</h5>
+                <p class="text-sm sm:text-2xl font-medium text-center">Apna Quiz is was very much designed by me.</p>
+                <button class="btn text-base text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md">Visit Project</button>
+            </span>
+            <span id="card-4" class="flex justify-center items-center flex-col p-5 bg-[#464646] text-white space-y-1 rounded-md w-[100%] bg-cover bg-blend-darken"style="background-image: url('SUI\ LOGO.png');">
+                <h3 class="text-lg sm:text-4xl font-bold">Apna Quiz</h3>
+                <h5 class="text-xs sm:text-lg font-light">22-09-2023</h5>
+                <p class="text-sm sm:text-2xl font-medium text-center">Apna Quiz is was very much designed by me.</p>
+                <button class="btn text-base text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md">Visit Project</button>
+            </span>
+            <span id="card-5" class="flex justify-center items-center flex-col p-5 bg-[#464646] text-white space-y-1 rounded-md w-[100%] bg-cover bg-blend-darken"style="background-image: url('SUI\ LOGO.png');">
+                <h3 class="text-lg sm:text-4xl font-bold">Apna Quiz</h3>
+                <h5 class="text-xs sm:text-lg font-light">22-09-2023</h5>
+                <p class="text-sm sm:text-2xl font-medium text-center">Apna Quiz is was very much designed by me.</p>
+                <button class="btn text-base text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md">Visit Project</button>
+            </span>
+            <span id="card-6" class="flex justify-center items-center flex-col p-5 bg-[#464646] text-white space-y-1 rounded-md w-[100%] bg-cover bg-blend-darken"style="background-image: url('SUI\ LOGO.png');">
+                <h3 class="text-lg sm:text-4xl font-bold">Apna Quiz</h3>
+                <h5 class="text-xs sm:text-lg font-light">22-09-2023</h5>
+                <p class="text-sm sm:text-2xl font-medium text-center">Apna Quiz is was very much designed by me.</p>
+                <button class="btn text-base text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md">Visit Project</button>
+            </span>
+        </div>
+        <a href="projects.html"><button class="btn text-xs sm:text-base text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md">View More</button></a>
+    </div>
+
+
+    <div id="resume" class="sec-3 flex justify-center items-center flex-col space-y-10 sm:h-[100vh]">
+        <h3 id="resume-head" class="text-[#7fffd4] font-bold text-3xl sm:text-5xl mt-20">My Resume</h3>
+            <div class="grid grid-flow-row text-white space-y-12 w-[95%]">
+                <div class="flex justify-center items-center lg:items-start flex-col space-y-4 w-[100%]">
+                    <h6 id="edu-head" class="text-[#7fffd4] sm:text-3xl">Education:</h6>
+                    <div id="edu-box" class="edu-box bg-[#464646] flex justify-center items-center lg:items-start flex-col text-center rounded-md space-y-4 p-8 w-[100%]">
+                        <p class="text-xs sm:text-base font-extralight" id="edu-date">2021-2026</p>
+                        <P class="text-sm sm:text-xl font-bold" id="edu-course">5 years Intergrated Masters of Technology in Computer Science and Engineering</P>
+                        <p class="text-xs sm:text-lg font-normal" id="edu-college">Vellore Institute Of Technology, Vellore, Tamil Nadu, India</p>
+                    </div>
+                </div>
+                <div class="grid grid-flow-row lg:grid-flow-col gap-[10%] space-y-12 w-[100%]">
+                    <div class="flex justify-center items-center lg:items-start flex-col space-y-5 w-[100%]">
+                        <h6 id="skills-head" class="text-[#7fffd4] sm:text-3xl">Skills:</h6>
+                        <div class="web-d space-y-3 lg:space-y-16 w-[100%]">
+                            <div class="front-end flex justify-center items-center lg:items-start flex-col">
+                                <h6 id="fe-head" class="text-[#7fffd4] text-sm sm:text-xl font-extralight">FrontEnd</h6>
+                                <div id="fe-box" class="front-end-list flex justify-center items-center lg:items-start bg-[#464646] text-center rounded-md space-x-[10%] p-5 w-[100%]">
+                                    <p class="text-xs sm:text-lg">HTML</p>
+                                    <p class="text-xs sm:text-lg">CSS</p>
+                                    <p class="text-xs sm:text-lg">Bootstrap</p>
+                                    <p class="text-xs sm:text-lg">ReactJs</p>
+                                    <p class="text-xs sm:text-lg">JavaScript</p>
+                                </div>
+                            </div>
+                            <div class="back-end flex justify-center items-center lg:items-start flex-col">
+                                <h6 id="be-head" class="text-[#7fffd4] text-sm sm:text-xl font-extralight">BackEnd</h6>
+                                <div id="be-box" class="back-end-list flex justify-center items-center bg-[#464646] text-center rounded-md space-x-[15%] p-5 w-[100%]">
+                                    <p class="text-xs sm:text-lg">NodeJs</p>
+                                    <p class="text-xs sm:text-lg">PHP</p>
+                                    <p class="text-xs sm:text-lg">ExpressJs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-start items-center flex-col space-y-5 w-[100%]">
+                        <div class="prog-langs flex justify-center items-center lg:items-start flex-col space-y-5 w-[100%]">
+                            <h6 id="pl-head" class="text-[#7fffd4] sm:text-3xl">Programming Languages:</h6>
+                            <div id="pl-box" class="p-langs flex justify-center items-center bg-[#464646] text-center rounded-md space-x-[15%] p-5 w-[100%]">
+                                <p class="text-xs sm:text-lg">Java</p>
+                                <p class="text-xs sm:text-lg">C</p>
+                                <p class="text-xs sm:text-lg">Kotlin</p>
+                                <p class="text-xs sm:text-lg">C++</p>
+                                <p class="text-xs sm:text-lg">Python</p>
+                            </div>
+                        </div>
+                        <div class="speak-langs flex justify-center items-center lg:items-start flex-col space-y-5 w-[100%]">
+                            <h6 id="sl-head" class="text-[#7fffd4] sm:text-3xl">Languages:</h6>
+                            <div id="sl-box" class="langs flex justify-center items-center bg-[#464646] text-center rounded-md space-x-[15%] p-5 w-[100%]">
+                                <p class="text-xs sm:text-lg">English</p>
+                                <p class="text-xs sm:text-lg">Udru/Hindi</p>
+                                <p class="text-xs sm:text-lg">Kannada</p>
+                                <p class="text-xs sm:text-lg">Arabic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="about" class="flex justify-center items-center flex-col space-y-14 mt-20 sm:h-[100vh]">
+        <h3 class="text-[#7fffd4] font-medium text-3xl sm:text-5xl">About</h3>
+        <div class="about-cont flex justify-center items-center flex-col w-[95%]">
+            <div class="about-me flex justify-center items-center flex-col lg:flex-row space-y-14 w-[100%]">
+                <div class="img">
+                    <img class="h-48 w-80 sm:h-56 sm:w-96 lg:h-80 lg:w-[90%] rounded-md" src="mypic.jpg" alt="">
+                </div>
+                <div class="about space-y-10 w-[100%] lg:w-[56%]">
+                    <p class="text-xs sm:text-lg font-thin text-center lg:text-start">
+                        Welcome to my portfolio website! I'm based in the vibrant city of <span class="text-[#7fffd4]">Gulbarga</span>, nestled in the heart of <span class="text-[#7fffd4]">Karnataka</span>, <span class="text-[#7fffd4]">India</span>. Currently pursuing my <span class="text-[#7fffd4]">Integrated Masters of Technology in Computer Science and Engineering</span>, I am passionate about the ever-evolving world of technology and design. With a strong foundation in computer science and a keen eye for aesthetics, I specialize in web design, bringing creativity and functionality together to craft stunning online experiences.
+                    </p>
+                    <p class="text-xs sm:text-lg font-thin text-center lg:text-start">
+                        Throughout my academic journey and professional endeavors, I have honed my skills as a <span class="text-[#7fffd4]">web designer</span>, striving to create visually captivating and user-friendly websites that leave a lasting impression. Whether it's developing intuitive user interfaces, optimizing for mobile responsiveness, or implementing the latest design trends, I am committed to delivering exceptional digital solutions. Browse through <span class="text-[#7fffd4]">my portfolio</span> to explore a collection of my work, and feel free to get in touch if you're looking to collaborate or have a project in mind. Let's turn your digital vision into reality!
+                    </p>
+                    <div class="proj-stats grid gap-[15%] grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 lg:gap-[1%] w-[100%] justify-around">
+                        <div class="count-box cb-1 bg-[#464646] flex justify-center items-center flex-col p-1 w-[100%] rounded-sm">
+                            <p class="text-2xl sm:text-4xl" id="counter-1">400</p>
+                            <h6 class="text-xs sm:text-base font-light ">Total Projects</h6>
+                        </div>
+                        <div class="count-box cb-2 bg-[#464646] flex justify-center items-center flex-col p-1 w-[100%] rounded-sm">
+                            <p class="text-2xl sm:text-4xl" id="counter-2">400</p>
+                            <h6 class="text-xs sm:text-base font-light ">Happy Customers</h6>
+                        </div>
+                        <div class="count-box cb-3 bg-[#464646] flex justify-center items-center flex-col p-1 w-[100%] rounded-sm">
+                            <p class="text-2xl sm:text-4xl" id="counter-3">400</p>
+                            <h6 class="text-xs sm:text-base font-light ">Total Days</h6>
+                        </div>
+                        <div class="count-box cb-4 bg-[#464646] flex justify-center items-center flex-col p-1 w-[100%] rounded-sm">
+                            <p class="text-2xl sm:text-4xl" id="counter-4">400</p>
+                            <h6 class="text-xs sm:text-base font-light ">Total Cups of Coffee</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact" class="flex justify-center items-center flex-col  space-y-14 mt-20 sm:h-[100vh]">
+        <h2 class="text-[#7fffd4] font-bold text-3xl sm:text-5xl">Contact</h2>
+        <div class="contact flex justify-center items-center flex-col lg:flex-row lg:gap-[10%] space-y-10 w-[95%]">
+            <div class="mssg flex justify-center items-center flex-col text-center lg:items-start text-sm sm:text-2xl lg:text-4xl">
+                <p id="feed-mssg">Please fill the feedback form to help me improve,</p>
+                <span class="text-[#7fffd4]" id="mssg-span">Your words will be appriciated.</span>
+            </div>
+            <div class="form flex justify-center items-center flex-col space-y-3 w-[100%] lg:w-[30%]">
+                <input type="text" class="inp-1 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-2" placeholder="Your Name">
+                <input type="number" class="inp-2 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-2" placeholder="Phone Number">
+                <input type="email" class="inp-3 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-2" placeholder="Your E-mail">
+                <textarea name="feedback" id="feedback" class="inp-4 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-2" cols="1" rows="1" placeholder="Feedback Please"></textarea>
+                <button class="text-xs sm:text-sm text-[#7fffd4] bg-[#464646] p-1.5 mt-2 rounded-md" id="form-btn">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sec-4 bg-[#464646] text-xs space-y-9 mt-20">
+        <div class="foot-links flex justify-center flex-col lg:flex-row space-y-1 lg:gap-[15%]">
+            <div class="secabt flex justify-center flex-col space-y-2 p-4 lg:w-[30%]">
+                <p class="text-[#7fffd4] text-sm sm:text-xl font-extralight" id="navabt">About</p>
+                <p class="sm:text-base">
+                    I'm an aspiring web designer hailing from Gulbarga, Karnataka, pursuing my Integrated Masters of Technology in Computer Science and Engineering. My passion lies in crafting visually captivating and user-friendly websites that merge aesthetics with functionality. Explore my portfolio to witness my dedication to creating exceptional online experiences.
+                </p>
+            </div>
+            <div class="secnav p-4">
+                <ul>
+                    <li><p class="text-[#7fffd4] text-sm sm:text-xl font-extralight">Links</p></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" href="#home">-> Home</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" href="#projects">-> Projects</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" href="#resume">-> Resume</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" href="#blog">-> Blogs</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" href="#about">-> About</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" href="#contact">-> Contact</a></li>
+                </ul>
+            </div>
+            <div class="secsoc p-4">
+                <ul>
+                    <li><p class="text-[#7fffd4] text-sm sm:text-xl font-extralight">Social</p></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" target="_blank" href="https://github.com/mdfaisalshn">-> GitHub</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" target="_blank" href="https://www.instagram.com/mdfaisalshn">-> Instagram</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" target="_blank" href="https://www.linkedin.com/in/mdfaisalshn">-> LinkedIn</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" target="_blank" href="https://twitter.com/mdfaisalshn">-> Twitter</a></li>
+                    <li><a class="sm:text-base hover:text-[#7fffd4]" target="_blank" href="https://www.facebook.com/mdfaisalshn">-> FaceBook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="rights text-center p-4">
+            <p class="sm:text-lg">Mohammed Faisal Shahna © 2023 <span class="text-[#7fffd4]">All Rights Reserved</span></p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="function.js"></script>
 </body>
 </html>
