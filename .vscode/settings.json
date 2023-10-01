@@ -1,5 +1,5 @@
 {
-    "liveServer.settings.host": "192.168.170.214",
+    "liveServer.settings.host": "127.0.0.1",
     "liveServer.settings.fullReload": false,
     "livePreview.hostIP": "192.168.170.214"
 }
