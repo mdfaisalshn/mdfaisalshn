@@ -154,10 +154,10 @@
                 <span class="text-[#7fffd4]" id="mssg-span">Your words will be appriciated.</span>
             </div>
             <form class="form flex justify-center items-center flex-col space-y-3 w-[100%] lg:w-[30%]">
-                <input type="text" class="inp-1 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" placeholder="Your Name">
-                <input type="number" class="inp-2 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" placeholder="Phone Number">
-                <input type="email" class="inp-3 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" placeholder="Your E-mail">
-                <textarea name="feedback" id="feedback" class="inp-4 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" cols="1" rows="1" placeholder="Feedback Please"></textarea>
+                <input id="name" type="name" class="inp-1 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" placeholder="Your Name">
+                <input id="number" type="number" class="inp-2 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" placeholder="Phone Number">
+                <input id="email" type="email" class="inp-3 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" placeholder="Your E-mail">
+                <textarea name="feedback" id="subject" class="inp-4 w-[100%] rounded-md text-[#7fffd4] bg-[#464646] text-xs sm:text-base font-light p-3" cols="1" rows="1" placeholder="Feedback Please"></textarea>
                 <button class="text-xs sm:text-sm text-[#7fffd4] bg-[#464646] p-2 w-[100%] rounded-md" id="form-btn">Submit</button>
             </form>
         </div>
@@ -201,6 +201,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="function.js"></script>
 </body>
 </html>

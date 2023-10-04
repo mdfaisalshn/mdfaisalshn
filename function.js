@@ -313,3 +313,19 @@ function counter4(){
         }
     }
 }
+
+// function sendEmail() {
+//     Email.send({
+//         secureToken: "4a179ab7-98ee-41dd-9e35-c73841a59767",
+//         To: "mdfaisalshahna@gmail.com",
+//         From: document.getElementById("email").value,
+//         Subject: document.getElementById("subject").value,
+//         body: "Name: " + document.getElementById("name").value
+//         + "<br> Email: " + document.getElementById("email").value
+//         + "<br> Phone No.: " + document.getElementById("number").value
+//         + "<br> Message: " + document.getElementById("subject").value
+//     })
+//     .then(
+//         alert("mail sent successfully")
+//     );
+// }
