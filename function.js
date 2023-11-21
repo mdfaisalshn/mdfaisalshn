@@ -29,6 +29,10 @@ const typeWriter = () => {
     }
     else if (index === 0 && post==="Video Editor") {
         flag = 0;
+        post = "Photographer";
+    }
+    else if (index === 0 && post==="Photographer") {
+        flag = 0;
         post = "Web Designer";
     }
 
@@ -83,146 +87,6 @@ function animation(){
 }
 
 animation();
-
-// let tl1 = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: '.sec-2',
-//         start: '5% 80%',
-//         end: '29% 15%',
-//         scrub: 1,
-//         markers: false
-//     }
-// })
-// tl1.from('#proj-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl1.from('#card-1', {
-//     y: 50,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl1.from('#card-2', {
-//     y: 50,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl1.from('#card-3', {
-//     y: 50,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl1.from('#card-4', {
-//     y: 50,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl1.from('#card-5', {
-//     y: 50,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl1.from('#card-6', {
-//     y: 50,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl1.from('#proj-view-btn', {
-//     y: 50,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-
-// let tl2 = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: '.sec-3',
-//         start: '5% 80%',
-//         end: '5% 15%',
-//         scrub: 1,
-//         markers: false
-//     }
-// })
-// tl2.from('#resume-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.9
-// })
-// tl2.from('#edu-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#edu-box', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#skills-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#fe-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#fe-box', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#be-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#be-box', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#pl-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#pl-box', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#sl-head', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
-// tl2.from('#sl-box', {
-//     y: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut,
-//     duration: 0.1
-// })
 
 let tl5 = gsap.timeline({
     scrollTrigger: {
@@ -313,19 +177,3 @@ function counter4(){
         }
     }
 }
-
-// function sendEmail() {
-//     Email.send({
-//         secureToken: "4a179ab7-98ee-41dd-9e35-c73841a59767",
-//         To: "mdfaisalshahna@gmail.com",
-//         From: document.getElementById("email").value,
-//         Subject: document.getElementById("subject").value,
-//         body: "Name: " + document.getElementById("name").value
-//         + "<br> Email: " + document.getElementById("email").value
-//         + "<br> Phone No.: " + document.getElementById("number").value
-//         + "<br> Message: " + document.getElementById("subject").value
-//     })
-//     .then(
-//         alert("mail sent successfully")
-//     );
-// }
